@@ -18,6 +18,10 @@ const ColorList = ({colors, updateColors}) => {
     setColorToEdit(color);
   };
 
+  const addColor = () => {
+    console.log(addColor)
+  }
+
   const saveEdit = e => {
     e.preventDefault();
     // Make a put request to save your updated color think about where will you get
@@ -120,6 +124,7 @@ const ColorList = ({colors, updateColors}) => {
               name="color"
               value=""
               placeholder="color name"
+              onChange={addColor}
             />
           </label>
           <label>
@@ -129,6 +134,7 @@ const ColorList = ({colors, updateColors}) => {
               name="hex"
               value=""
               placeholder="hex color"
+              onChange={addColor}
             />
           </label>
           <div className="button-row">
