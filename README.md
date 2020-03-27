@@ -24,32 +24,6 @@ In this project you will create a login page and request a token from the server
 
 ## Self-Study/Essay Questions
 
-Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
-
-- [ ] Explain what a token is used for.
-
-Tokens are issued by a server once a user is logged into a server as a way of making sure only authorized persons have access to exclusive files and folders.  If a server detects that a user does not have a valid token, the server will normally redirect the visitor to a login page.
-
-- [ ] What steps can you take in your web apps to keep your data secure?
-
-Steps I can take to ensure the data stored on a server is secure is to:
-
-  1. Use https SSL on all websites
-  2. Require a username and password that provide accurate access to appropriate files and folders
-  3. Keep servers up to date with the latest patches 
-  4. Use tokens, localstorage and localsessions while users are logged in
-  5. Track user access and usage
-
-- [ ] Describe how web servers work.
-
-Web servers provide files and folders to clients via web browsers.  When a computer tries to access a URL, a router converts the URL to an IP address.  That IP address is then matched with a MAC address of the web server.  The web server then fulfills the request for a particular web hosted page.  Once the web server returns the requested page, the web server then again stands ready to respond to the next request from an authorized client.
-
-- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
-
-  C - Create: Post creates a new resource to the existing API (axios.post())
-  R - Read: Get allows the client computer to receive API data (axios.get())
-  U - Update: Put enables the client computer to update a resource located on the server (axios.put())
-  D - Delete: Delete allows a resource on the hosting computer to be removed (axios.delete())
 
 
 ## Project Set Up
